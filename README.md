@@ -4,5 +4,5 @@ Para ejecutar el demo simplemente descarga la version mas reciente de maven, una
 
 mvn war:exploded
 
-/
+
 mvn gwt:run
