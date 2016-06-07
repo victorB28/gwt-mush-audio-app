@@ -1,0 +1,38 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+			 xmlns:g='urn:import:com.google.gwt.user.client.ui'
+			 
+			 
+			 >
+
+    <div>
+        
+        <style>
+	        .title {
+	          padding-left: 20px;
+	          font-size: 120%;
+	          font-weight: normal;
+	        }
+	        .item{
+	        padding-left: 0px;
+	        }
+	        .done {
+	          text-decoration: line-through;
+	        }
+	        .paper-checkbox {
+	          top: -2px;
+	        }
+        </style>
+		<paper-card ui:field="card" heading="" style="background: #00bcd4;">
+       
+		    <div class="card-actions">
+      <paper-icon-button icon="settings-phone" style="color:white;"></paper-icon-button>
+      <span ui:field="number"></span>
+  
+    </div>
+		    
+		    
+		    
+		</paper-card>
+    </div>
+</ui:UiBinder>
